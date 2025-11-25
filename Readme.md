@@ -40,13 +40,13 @@ Loads historical and October 2025 temperature data from CSV files in Google Driv
 
 ## Screenshots
 ### 1. Historical Temperature Trend (2020–Sept 2025)
-![Day-wise Prediction Table](https://github.com/user-attachments/assets/7c106a84-6b3c-4901-ba07-0fc2c5fd7c93)
+![Day-wise Prediction Table](https://github.com/user-attachments/assets/1996b0e1-fff6-4c0e-b7d6-5af83a4d7e2a)
 
 ### 2. Day‑wise Prediction Table (sample, first 10 days)
-![Historical Temperature Trend](https://github.com/user-attachments/assets/b2cdf593-95ac-4788-b52d-24c0d803bf75)
+![Historical Temperature Trend](https://github.com/user-attachments/assets/11e59bc6-dd34-4315-aaac-cbd8890c52df)
 
 ### 3. Model Evaluation Metrics (Linear Regression vs Random Forest)
-![Actual vs Predicted Temperature](https://github.com/user-attachments/assets/ce51e87f-9178-43e2-985e-c2ca2238c1d3)
+![Actual vs Predicted Temperature](https://github.com/user-attachments/assets/242f9e40-ce07-4c40-b9eb-372b759b1566)
 
 ### 4. Actual vs Predicted Temperature: October 2025
-![Model Evaluation Metrics](https://github.com/user-attachments/assets/daea91bd-71ab-49cf-8eb7-44b9c256bb2d)
+![Model Evaluation Metrics](https://github.com/user-attachments/assets/e154ca04-6472-43ec-a79f-ef03ba19bc53)
