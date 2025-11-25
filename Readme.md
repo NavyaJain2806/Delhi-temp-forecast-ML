@@ -1,0 +1,52 @@
+# DelhiTemp ML Forecast
+
+## Overview
+This project constructs a time‑series temperature forecasting system for New Delhi based on historical daily temperature data. It accesses two CSV files from Google Drive, engineers date‑based and previous‑day temperature features, and trains both Linear Regression and Random Forest models to predict daily temperatures for October 2025. The predictions will be compared with the actual values through standard regression metrics and visual plots.
+
+## Features
+Loads historical and October 2025 temperature data from CSV files in Google Drive
+- Parses date columns and creates year, month, day and previous‑day temperature features
+• Trains and evaluates Linear Regression and tuned Random Forest models
+- Calculates MAE, RMSE, MAPE, and accuracy for both models
+- Provides a day‑wise comparison table for actual values, predictions, and errors
+- Plots historical temperature trend — 2020–Sept 2025
+- Plots actual vs predicted temperatures for October 2025 for both models
+
+## Technologies / Tools Used
+- Python 3
+- Google Colab + Google Drive
+- pandas, NumPy
+- scikit‑learn (LinearRegression, RandomForestRegressor)
+- Matplotlib
+
+## Steps to Install & Run the Project
+1. Open the notebook (`Delhi_temp_prediction.ipynb`) in Google Colab.
+2. Upload `dataset1.csv` (historical data) and `dataset2.csv` (October 2025 data) in your drive.
+3. In the notebook run all cells from top to the bottom:
+    - Mount Google Drive
+    - Load data and create features
+    - Train models and evaluate them
+    - Display tables and plots
+  
+## Testing Instructions
+1. Confirm that:
+  - `dataset1.csv` includes a `datetime` column and a `temp` column for 2020–Sept 2025.
+  - `dataset2.csv` includes a `datetime` column and a `temp` column for October 2025.
+
+2. After running the notebook:
+   - Check the **day‑wise comparison table** to make sure each October date has actual, Linear Regression and Random Forest predictions and errors.
+   - Check the **metrics table** to compare MAE, RMSE, MAPE and accuracy for both models. 
+   - Observe the **comparison plot** to visualize which model follows the actual curve more closely.
+
+## Screenshots
+### 1. Historical Temperature Trend (2020–Sept 2025)
+![Day-wise Prediction Table](https://github.com/user-attachments/assets/7c106a84-6b3c-4901-ba07-0fc2c5fd7c93)
+
+### 2. Day‑wise Prediction Table (sample, first 10 days)
+![Historical Temperature Trend](https://github.com/user-attachments/assets/b2cdf593-95ac-4788-b52d-24c0d803bf75)
+
+### 3. Model Evaluation Metrics (Linear Regression vs Random Forest)
+![Actual vs Predicted Temperature](https://github.com/user-attachments/assets/ce51e87f-9178-43e2-985e-c2ca2238c1d3)
+
+### 4. Actual vs Predicted Temperature: October 2025
+![Model Evaluation Metrics](https://github.com/user-attachments/assets/daea91bd-71ab-49cf-8eb7-44b9c256bb2d)
